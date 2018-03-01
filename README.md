@@ -10,6 +10,8 @@ This configuration shows a simple (low power) "wake on shake" implementation usi
 ## Fritzing
 The ADXL345 is configured to communicate with the Teensy over I2C.
 
+![alt text](https://github.com/TimothySealy/teensy_adxl345_low_power/blob/master/teensy_adxl345_low_power.png "Teensy ADXL345 Wiring")
+
 ## Sketch
 In this repository you will find a sketch which will configure the ADXL345 to trigger an interrupt on activity. The ADXL is set in low power mode. The Teensy  is put in Hibernate mode. When an interrupt is triggered upon activity the builtin LED on the Teensy will blink. After that the Teensy is put in Hibernate mode and the cycle repeats.
 
